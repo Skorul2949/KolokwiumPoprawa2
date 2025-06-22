@@ -9,8 +9,9 @@ public class Tree_Species
 {
     [Key]
     public int SpeciesID { get; set; }
-    public string LatinName { get; set; }
     [MaxLength(100)]
+    public string LatinName { get; set; }
+ 
     public int GrowthTimeInYears { get; set; }
 
 
